@@ -40,7 +40,7 @@ function buildBarChart(sample) {
 
       // Build a Bar Chart using the sample data
       var trace1 = {
-        y: ybar.slice(0, 10).map(object => `OTU ${object}`).reverse(),
+        y: ybar.slice(0, 10).map(object => `Effect ${object}`).reverse(),
         x: xbar.slice(0, 10).reverse(),
         hovertext: barHover.slice(0, 10).reverse(),
         type: "bar",
@@ -50,7 +50,7 @@ function buildBarChart(sample) {
         
       // Apply the group bar mode to the layout
       var layout = {
-          title: "Top 10 OTUs",
+          title: "Effects",
           margin: {
             l: 100,
             r: 100,
@@ -150,7 +150,7 @@ function buildCharts(sample) {
     var data = [trace_bubble];
 
     var layout = {
-      xaxis: {title: "OTU ID"}
+      xaxis: {title: "Effect in city"}
     }; //ends the layout
 
     Plotly.newPlot('bubble', data, layout);
