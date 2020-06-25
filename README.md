@@ -7,3 +7,5 @@ In this Coconino County Task Force Project, Northern Arizona University W.A. Fra
 The EPI created a survey to be sent to businesses in the county. Managers from each city sent EPI lists of business email addresses, which the survey was then sent to. EPI analyzed the data and made it available through this website.
 
 Click on this website link [Coconino County and Sedona Business Leaders' Survey Results](https://dianess.github.io/County-Effects-of-COVID/) to view the results. Click on each bubble to see data at that level. You can make the presentation full screen and press escape to exit the full-screen view.
+
+Example of Prezi presentation: <img src="/Coconino_County_Overview3.png" alt="County Overview Pulse 3">
